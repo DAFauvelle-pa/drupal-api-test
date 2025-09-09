@@ -1,0 +1,5 @@
+name: 'routing_test'
+type: module
+description: 'A test for Drupal Routing'
+package: Custom
+core_version_requirement: ^10 || ^11

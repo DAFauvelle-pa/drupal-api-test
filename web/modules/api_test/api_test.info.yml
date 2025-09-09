@@ -1,0 +1,5 @@
+name: 'api-test'
+type: module
+description: 'A module to test APIs in Drupal'
+package: Custom
+core_version_requirement: ^10 || ^11

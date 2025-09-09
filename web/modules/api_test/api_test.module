@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for api-test module.
+ */
+
+function api_test_cron() {
+    Drupal::logger('api_test')->info('This is an informational message from my_module.');
+}

@@ -1,0 +1,9 @@
+
+api_test.test_route:
+
+  path: '/test_route'
+  defaults:
+      _controller: '\Drupal\api_test\Controller\ApiController::factsPage'
+      _title: '5 facts'
+  requirements:
+      _permission: 'access content'
