@@ -1,1 +1,30 @@
-vendor/
+# Core and vendor files managed by Composer
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
+
+# Site-specific files not meant for version control
+/web/sites/*/files/
+/web/sites/*/settings.local.php
+/web/sites/*/services.local.yml
+/web/private/temp/
+/web/private/logs/
+
+# Development and build artifacts
+*.log
+*.sql
+*.tar.gz
+*.zip
+*.bak
+*.diff
+/tmp/
+/drush-backups/
+
+# IDE and OS specific files
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
