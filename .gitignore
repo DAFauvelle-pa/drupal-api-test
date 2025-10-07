@@ -7,6 +7,7 @@
 /web/libraries/
 
 # Site-specific files not meant for version control
+/web/sites/default/files/*
 /web/sites/*/files/
 /web/sites/*/settings.local.php
 /web/sites/*/services.local.yml
