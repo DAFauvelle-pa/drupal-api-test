@@ -1,0 +1,15 @@
+screamsheets.SheetForm:
+  path: '/sheet-form'
+  defaults:
+    _form: '\Drupal\screamsheets\Form\SheetForm'
+    _title: 'Screamsheet form'
+  requirements:
+    _permission: 'access content' # Or a more specific permission
+
+screamsheets.SheetPage:
+  path: '/sheet-page'
+  defaults:
+    _form: '\Drupal\screamsheets\Controller\SheetPage'
+    _title: 'Screamsheet page'
+  requirements:
+    _permission: 'access content' # Or a more specific permission
